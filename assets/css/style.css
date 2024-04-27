@@ -16,12 +16,15 @@ body {
 header {
   display: flex;
   align-items: flex-end;
+  
   padding: 0 0.65rem 0 0.65rem;
-  background-color: #4A4238;
+  
+  background-color: var(--header);
 }
 
 header img {
   width: 6.5rem;
+  
   margin: 0.65rem;
   border-radius: 50%;
 }
@@ -37,7 +40,6 @@ header h2 {
 nav {
   flex-grow: 1;
   margin: 0.65rem;
-  /* border: 0.2rem solid black;   */
 }
 
 nav ul {
@@ -45,10 +47,6 @@ nav ul {
   justify-content: flex-end;
   gap: 2rem; 
 }
-
-/* nav li {
-  border: 0.2rem solid black;  
-} */
 
 nav a {
   color: var(--navlink-color);
@@ -62,9 +60,10 @@ nav a:hover {
 }
 
 .banner { 
+  height: 13rem;
+
   display: flex;
   justify-content: flex-end;
-  height: 13rem;
 
   background-image: url("../images/banner.jpg");
   background-size: cover;
@@ -106,7 +105,10 @@ section h2 {
   text-align: right;
 }
 
-
+#about-me p {
+  margin: 1rem 1rem 1rem 1rem;
+  line-height: 1.5rem;
+}
 
 .cards-container {
   display: flex;
@@ -115,14 +117,17 @@ section h2 {
 }
 
 .card { 
+  min-width: 20rem;
+  min-height: 20rem;
+
   display: flex;
   flex: 1 1 auto;
   position: relative;
-  min-width: 20rem;
-  min-height: 20rem;
+  
   margin: 1rem;
   border-radius: 1rem;
   box-shadow: 1rem 1rem 1rem gray;
+  
   background-size: cover;
   background-position: center;
 }
@@ -130,6 +135,7 @@ section h2 {
 .first-card {
   width: 100%;
   height: 25rem;
+  
   background-image: url("../images/light-bulb.jpg");
 }
 
@@ -146,13 +152,15 @@ section h2 {
 }
 
 .tag-container {
-  background-color: var(--header);
   position: absolute;
-  bottom: 1rem;   /* positions content based off the bottom */
+  bottom: 1rem;
+
   padding: 0.65rem;
   box-shadow: 0.5rem 0.5rem 1rem black;
   border-radius: 0 1rem 1rem 0;
-  
+
+  background-color: var(--header);
+
   color: var(--light);
   text-align: left;
 }
@@ -173,12 +181,7 @@ footer p {
   line-height: 1.5;
 }
 
-#about-me p {
-  margin: 1rem 1rem 1rem 1rem;
-  line-height: 1.5rem;
-}
-
-/* Cards are stacked on top of each other at 650px or smaller */
+/* Centered content and stacked cards at 650px or smaller */
 @media screen and (max-width: 650px) {
  
   header {
@@ -223,5 +226,4 @@ footer p {
   footer p {
     padding: 0.5rem;
   }
-
 }

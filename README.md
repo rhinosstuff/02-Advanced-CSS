@@ -1,10 +1,11 @@
 # 02-Advanced-CSS
 
-For this project, I needed to create a portfolio from scratch, with no starter code. Given free control over content and layout as long as I met certain Acceptance Criteria.
+## Description
+For this project, I needed to create a portfolio from scratch, with no starter code. I was given free control over content and layout as long as I met certain Acceptance Criteria.
 
 ## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+Here are the requirements necessary to satisfy this weeks challenge:
 
 ```
 GIVEN I need to sample a potential employee's previous work
@@ -21,6 +22,8 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+<a href="https://rhinosstuff.github.io/02-Advanced-CSS/">This is a link to my deployed webpage</a>
+
 
 Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1079235">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1079235">Pixabay</a>
 ![alt text](assets/images/banner.jpg)

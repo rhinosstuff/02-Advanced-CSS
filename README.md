@@ -1,4 +1,4 @@
-# 02-Advanced-CSS
+# Bootcamp Portfolio
 
 ## Description
 For this project, I needed to create a portfolio from scratch, with no starter code. I was given free control over content and layout as long as I met certain Acceptance Criteria.
@@ -23,7 +23,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-<a href="https://rhinosstuff.github.io/02-Advanced-CSS/">This is a link to my deployed webpage</a>
+<a href="https://rhinosstuff.github.io/Bootcamp-Portfolio/">This is a link to my deployed webpage</a>
 
 ## Image Sources
 
